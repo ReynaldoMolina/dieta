@@ -58,12 +58,12 @@ export function DietSelector() {
               options={currentPlan.meals.breakfast}
             />
             <MealSection
-              title="Merienda Mañana"
+              title="Medio día"
               options={currentPlan.meals.morningSnack}
             />
             <MealSection title="Almuerzo" options={currentPlan.meals.lunch} />
             <MealSection
-              title="Merienda Tarde"
+              title="Media tarde"
               options={currentPlan.meals.afternoonSnack}
             />
             <MealSection title="Cena" options={currentPlan.meals.dinner} />
@@ -101,10 +101,10 @@ function MealSection({
               <img
                 src={option.image}
                 alt={option.title}
-                className="object-fit h-48 w-full p-5"
+                className="mx-auto h-30 w-auto p-1"
               />
             )}
-            <div className="p-4">
+            <div className="px-4 py-2">
               <h4 className="mb-3 text-center font-semibold text-neutral-700">
                 {option.title}
               </h4>
@@ -114,10 +114,8 @@ function MealSection({
                     key={i}
                     className="flex justify-between gap-2 border-b border-slate-100 pb-1 text-sm last:border-0"
                   >
-                    <span className="text-slate-600">{ing.name}</span>
-                    <span className="w-10"></span>
-                    <span className="font-medium text-slate-900">
-                      {ing.amount}
+                    <span className="w-full text-center text-slate-600">
+                      {ing}
                     </span>
                   </li>
                 ))}
