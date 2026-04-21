@@ -167,7 +167,7 @@ export const dietPlan: DailyPlan[] = [
         },
         {
           title: "Pan tostado",
-          image: "/public/1/pan-tostado.png",
+          image: "/1/pan-tostado.png",
           ingredients: ["Pan tostado 17 g, 1 rebanada"],
         },
         {
