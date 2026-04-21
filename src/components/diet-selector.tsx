@@ -112,9 +112,9 @@ function MealSection({
                 {option.ingredients.map((ing, i) => (
                   <li
                     key={i}
-                    className="flex justify-between gap-2 border-b border-slate-100 pb-1 text-sm last:border-0"
+                    className="flex justify-between gap-2 border-slate-100 pb-1 text-sm"
                   >
-                    <span className="w-full text-center text-slate-600">
+                    <span className="w-full text-center text-neutral-500">
                       {ing}
                     </span>
                   </li>
