@@ -63,7 +63,7 @@ export const dietPlan: DailyPlan[] = [
       lunch: [
         {
           title: "Ensalada de lechuga y jamón",
-          image: "/public/1/lunes-almuerzo.png",
+          image: "/1/lunes-almuerzo.png",
           ingredients: [
             "Lechuga, cos o romana 100 g, 2 ⅕ tazas",
             "Jamón de pavo 21 g, 1 rebanada",
@@ -179,6 +179,65 @@ export const dietPlan: DailyPlan[] = [
           title: "Té de manzanilla",
           image: "/1/te-manzanilla.png",
           ingredients: ["Agua 220 ml"],
+        },
+      ],
+    },
+  },
+  {
+    day: "miercoles",
+    meals: {
+      breakfast: [
+        {
+          title: "Avena con leche y manzana",
+          image: "/1/leche-avena.png",
+          ingredients: [
+            "Leche semidescremada 240 ml, 1 taza",
+            "Avena 27 g, ⅓ taza",
+            "Manzana 106 g, 1 pieza",
+          ],
+        },
+      ],
+      morningSnack: [
+        {
+          title: "Té verde",
+          image: "/1/te-verde.png",
+          ingredients: ["Agua 220 ml"],
+        },
+        {
+          title: "Papaya con melón",
+          image: "/1/papaya-melon.png",
+          ingredients: ["Papaya 70 g, ½ taza", "Melón 90 g, 1 taza"],
+        },
+      ],
+      lunch: [
+        {
+          title: "Caldo de pollo con vegetales",
+          image: "/1/caldo-pollo.png",
+          ingredients: [
+            "Pollo 30 g",
+            "Elote 20 g, 0.1 taza",
+            "Zanahoria 20 g, ¼ taza",
+            "Chícharo 20 g, 0.1 taza",
+            "Aceite de canola 5 ml, 1 cucharadita",
+          ],
+        },
+      ],
+      afternoonSnack: [
+        {
+          title: "Batido de espinaca y apio",
+          image: "/1/batido-espinaca.png",
+          ingredients: [
+            "Espinaca cruda 60 g, 1 taza",
+            "Apio crudo 100 g, 1.1 tazas",
+            "Pepino con cáscara 52 g, ½ taza",
+          ],
+        },
+      ],
+      dinner: [
+        {
+          title: "",
+          image: "",
+          ingredients: ["Enterex Diabetics 100 g"],
         },
       ],
     },
