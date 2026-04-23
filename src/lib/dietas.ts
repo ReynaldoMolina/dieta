@@ -243,6 +243,84 @@ export const dietPlan: DailyPlan[] = [
     },
   },
   {
+    day: "jueves",
+    meals: {
+      breakfast: [
+        {
+          title: "Naranja",
+          image: "/1/naranja.png",
+          ingredients: ["Naranja 60 g, ½ pieza"],
+        },
+        {
+          title: "Huevos revueltos",
+          image: "/1/huevos-revueltos.png",
+          ingredients: [
+            "Huevos revueltos 90 g, 2 piezas",
+            "Aceite de canola 5 ml, 1 cucharadita",
+          ],
+        },
+        {
+          title: "Galleta salada",
+          image: "/1/galleta-salada.png",
+          ingredients: ["Galletas saladas 16 g, 4 piezas"],
+        },
+      ],
+      morningSnack: [
+        {
+          title: "Ensalada de frutas con yogurt griego",
+          image: "/1/ensalada-frutas.png",
+          ingredients: [
+            "Yogurt griego alto en proteína 80 ml, ⅓ taza",
+            "Melón 44 g, ¼ taza",
+            "Sandía 80 g, ½ taza",
+            "Fresa 36 g, 3 piezas",
+            "Uva 20 g, 4 piezas",
+          ],
+        },
+      ],
+      lunch: [
+        {
+          title: "Ensalada de pollo con verdutas",
+          image: "/1/ensalada-pollo.png",
+          ingredients: [
+            "Lechuga 45 g, 1 taza",
+            "Pechuga de pollo desmenuzada 60 g",
+            "Elote 40 g, ¼ taza",
+            "Zanahoria 35 g, ½ taza",
+            "Chícharo 20 g, 0.1 taza",
+          ],
+        },
+      ],
+      afternoonSnack: [
+        {
+          title: "Batido de zanahoria, naranja y limón",
+          image: "/1/batido-zanahoria.png",
+          ingredients: [
+            "Zanahoria 40 g, ½ taza",
+            "Limón real 195 g",
+            "Naranja 76 g, 1 pieza",
+          ],
+        },
+      ],
+      dinner: [
+        {
+          title: "Té de manzanilla",
+          image: "/1/te-manzanilla.png",
+          ingredients: ["Agua 220 ml"],
+        },
+        {
+          title: "Pan con ensalada de atún",
+          image: "/1/pan-atun.png",
+          ingredients: [
+            "Pan de caja 30 g, 1 pieza",
+            "Atún 80 g, 1 lata",
+            "Lechuga 10 g, ⅕ taza",
+          ],
+        },
+      ],
+    },
+  },
+  {
     day: "sabado",
     meals: {
       breakfast: [],
