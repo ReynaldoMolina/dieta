@@ -321,25 +321,232 @@ export const dietPlan: DailyPlan[] = [
     },
   },
   {
+    day: "viernes",
+    meals: {
+      breakfast: [
+        {
+          title: "Mandarina",
+          image: "/1/mandarina.png",
+          ingredients: ["Mandarina 64 g, 1 pieza"],
+        },
+        {
+          title: "Huevo estrallado",
+          image: "/1/huevo-estrellado.png",
+          ingredients: [
+            "Huevo estrellado 45 g, 1 pieza",
+            "Aceite de canola 5 ml, 1 cucharadita",
+          ],
+        },
+        {
+          title: "Pan tostado",
+          image: "/1/pan-tostado.png",
+          ingredients: ["Pan tostado 17 g, 1 rebanada"],
+        },
+        {
+          title: "Tomate",
+          image: "/1/tomate.png",
+          ingredients: ["Tomate 30 g, 3 rebanadas"],
+        },
+      ],
+      morningSnack: [
+        {
+          title: "Granola",
+          image: "/1/granola.png",
+          ingredients: ["Granola 21 g, 3 cucharaditas"],
+        },
+        {
+          title: "Plátano",
+          image: "/1/platano.png",
+          ingredients: ["Granola 21 g, 3 cucharaditas"],
+        },
+      ],
+      lunch: [
+        {
+          title: "Baguette integral",
+          image: "/1/baguette.png",
+          ingredients: [
+            "Baguette integral 190 g, 1 pieza",
+            "Jamón de pavo magro 75 g, 3 rebanadas",
+            "Tomate 60 g, 3 rebanadas",
+            "Lechuga 20 g, ½ taza",
+            "Mayonesa 10 g, 2 cucharaditas",
+          ],
+        },
+        {
+          title: "Té verde",
+          image: "/1/te-verde.png",
+          ingredients: ["Agua 220 ml"],
+        },
+      ],
+      afternoonSnack: [
+        {
+          title: "Manzana verde",
+          image: "/1/manzana-verde.png",
+          ingredients: ["Manzana 140 g, 1 pieza"],
+        },
+        {
+          title: "Galleta salada",
+          image: "/1/galleta-salada.png",
+          ingredients: ["Galletas saladas 16 g, 4 piezas"],
+        },
+      ],
+      dinner: [
+        {
+          title: "",
+          image: "",
+          ingredients: ["Enterex Diabetics 100 g"],
+        },
+      ],
+    },
+  },
+  {
     day: "sabado",
     meals: {
-      breakfast: [],
-      morningSnack: [],
+      breakfast: [
+        {
+          title: "Tupper de frutas",
+          image: "/1/frutas.png",
+          ingredients: [
+            "Sandía 40 g, ¼ taza",
+            "Pepino 50 g ½ taza",
+            "Piña 40 g, ¼ taza",
+            "Melón 40 g, ¼ taza",
+          ],
+        },
+        {
+          title: "Granola",
+          image: "/1/granola.png",
+          ingredients: ["Granola 31.5 g, 4 ½ cucharaditas"],
+        },
+      ],
+      morningSnack: [
+        {
+          title: "Batido verde",
+          image: "/1/batido-verde.png",
+          ingredients: [
+            "Apio crudo 35 g, ½ taza",
+            "Perejil picado 30 g, 6 cucharadas",
+            "Pepino con cáscara 52 g, ½ taza",
+            "Limón con semilla 100 g",
+            "Cilantro 5 g, 0.1 taza",
+            "Agua 100 ml",
+          ],
+        },
+      ],
       lunch: [
         {
           title: "Caldo de pollo con fideos",
-          image: "/1/sopa-de-pollo-fideos.jpg",
+          image: "/1/caldo-pollo-fideos.png",
           ingredients: [
             "Pollo 30 g",
-            "Pasta de fideo cocida 25 g, 1/4 tasa",
-            "Zanahoria 25 g, 1/2 tasa",
-            "Ejote 30 g, 1/2 tasa",
+            "Pasta de fideo cocida 25 g, ¼ taza",
+            "Zanahoria 25 g, ½ taza",
+            "Ejote 30 g, ½ taza",
             "Aceite de canola 5 ml, 1 cucharadita",
           ],
         },
       ],
-      afternoonSnack: [],
-      dinner: [],
+      afternoonSnack: [
+        {
+          title: "Mandarina",
+          image: "/1/mandarina.png",
+          ingredients: ["Mandarina 64 g, 1 pieza"],
+        },
+        {
+          title: "Té verde",
+          image: "/1/te-verde.png",
+          ingredients: ["Agua 220 ml"],
+        },
+        {
+          title: "Galleta salada",
+          image: "/1/galleta-salada.png",
+          ingredients: ["Galletas saladas 16 g, 4 piezas"],
+        },
+      ],
+      dinner: [
+        {
+          title: "Sopa de frijoles",
+          image: "/1/sopa-frijoles.png",
+          ingredients: [
+            "Frijoles cocidos, sin grasa 225 g, 1 ⅓ tazas",
+            "Limón real 100 g",
+          ],
+        },
+      ],
+    },
+  },
+  {
+    day: "domingo",
+    meals: {
+      breakfast: [
+        {
+          title: "Batido verde",
+          image: "/1/batido-verde.png",
+          ingredients: [
+            "Apio crudo 35 g, ½ taza",
+            "Perejil picado 30 g, 6 cucharadas",
+            "Pepino con cáscara 52 g, ½ taza",
+            "Limón con semilla 100 g",
+            "Cilantro 5 g, 0.1 taza",
+            "Agua 100 ml",
+          ],
+        },
+        {
+          title: "Huevos revueltos",
+          image: "/1/huevos-revueltos.png",
+          ingredients: [
+            "Huevos revueltos 90 g, 2 piezas",
+            "Aceie de canola 5 ml, 1 cucharadita",
+          ],
+        },
+        {
+          title: "Pan integral",
+          image: "/1/pan-integral.png",
+          ingredients: ["Pan integral 25 g, 1 pieza"],
+        },
+      ],
+      morningSnack: [
+        {
+          title: "Pan con mantequilla de cacahuete y plátano",
+          image: "/1/pan-mantequilla-mani.png",
+          ingredients: [
+            "Pan de caja 30 g, 1 pieza",
+            "Plátano 56 g, ½ pieza",
+            "Mantequilla de cacahuete 11 g, 1 cucharada",
+          ],
+        },
+      ],
+      lunch: [
+        {
+          title: "Ensalada de pollo con frijoles",
+          image: "/1/ensalada-pollo-frijoles.png",
+          ingredients: [
+            "Pollo a la plancha 60 g",
+            "Lechuga 75 g, 3 tazas",
+            "Frijoles 30 g, ⅕ taza",
+            "Cubitos de pan 15 g, ⅓ taza",
+          ],
+        },
+      ],
+      afternoonSnack: [
+        {
+          title: "Fresco de avena",
+          image: "/1/fresco-avena.png",
+          ingredients: [
+            "Avena cruda en hojuelas 20 g, ¼ taza",
+            "Miel 7 g, 1 cucharadita",
+            "Canela en polvo 13 g",
+            "Agua mineral 100 ml",
+          ],
+        },
+      ],
+      dinner: [
+        {
+          title: "",
+          image: "",
+          ingredients: ["Enterex Diabetics 100 g"],
+        },
+      ],
     },
   },
 ]
